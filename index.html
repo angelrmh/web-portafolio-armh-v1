@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NanelOps | SysAdmin, SysOps, DevOps & Cloud Solutions</title>
+    <meta name="description" content="Portfolio profesional de Angel Millan (NanelOps). Servicios especializados en DevOps, SysAdmin, Cloud Computing y Automatización.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for Icons (optional but useful) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Particles Container -->
+    <div id="particles-container"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="NanelOps Logo" class="logo-img">
+                <span class="logo-text">Nanel<span class="text-primary">Ops</span></span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#services" class="nav-link">Servicios</a>
+                <a href="#about" class="nav-link">Sobre Mí</a>
+                <a href="#stack" class="nav-link">Tech Stack</a>
+                <a href="#contact" class="nav-link btn-primary">Contactar</a>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <a href="#services" class="mobile-link">Servicios</a>
+        <a href="#about" class="mobile-link">Sobre Mí</a>
+        <a href="#stack" class="mobile-link">Tech Stack</a>
+        <a href="#contact" class="mobile-link">Contactar</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-label glow-text">
+                    <i class="fas fa-terminal"></i> SysAdmin & DevOps Engineer
+                </span>
+                <h1 class="hero-title">
+                    Infraestructura Cloud <br>
+                    <span class="text-gradient">Escalable & Segura</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Transformo operaciones complejas en sistemas automatizados y eficientes. 
+                    Potenciando startups y empresas tech con soluciones DevOps de vanguardia.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn-primary glow-primary">
+                        Iniciar Proyecto <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="btn-outline">
+                        Ver Servicios
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15">0</span><span>+</span>
+                        <span class="stat-label">Años Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span><span>+</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="99">0</span><span>%</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="sphere">
+                    <img src="images/hero_visual.png" alt="DevOps Architecture" class="hero-img floating-3d">
+                </div>
+                <!-- Decorative elements behind -->
+                <div class="hero-glow-bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Stack -->
+    <section id="stack" class="stack-section">
+        <div class="container">
+            <p class="stack-title">TECHNOLOGY STACK</p>
+            <div class="stack-grid">
+                <!-- Iconic representations using text for now, could be SVGs -->
+                <div class="stack-item"><i class="fab fa-aws"></i> AWS</div>
+                <div class="stack-item"><i class="fab fa-microsoft"></i> Azure</div>
+                <div class="stack-item"><i class="fab fa-docker"></i> Docker</div>
+                <div class="stack-item"><i class="fas fa-cubes"></i> Kubernetes</div>
+                <div class="stack-item"><i class="fab fa-linux"></i> Linux</div>
+                <div class="stack-item"><i class="fab fa-windows"></i> Windows</div>
+                <div class="stack-item"><i class="fas fa-server"></i> Terraform</div>
+                <div class="stack-item"><svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" width="1em" height="1em" style="vertical-align: -0.125em;"><path d="M10.617 11.473l4.686 3.695-3.102-7.662zM12 0C5.371 0 0 5.371 0 12s5.371 12 12 12 12-5.371 12-12S18.629 0 12 0zm5.797 17.305c-.011.471-.403.842-.875.83-.236 0-.416-.09-.664-.293l-6.19-5-2.079 5.203H6.191L11.438 5.44c.124-.314.427-.52.764-.506.326-.014.63.189.742.506l4.774 11.494c.045.111.08.234.08.348-.001.009-.001.009-.001.023z"/></svg> Ansible</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Soluciones <span class="text-gradient">Especializadas</span></h2>
+                <p class="section-subtitle">Arquitectura de sistemas robusta y optimizada para el crecimiento de tu negocio.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1: SysAdmin -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_1.png" alt="SysAdmin" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">SysAdmin & Server Management</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">SysAdmin</h3>
+                            <p class="service-description">Administración experta de servidores Linux/Windows. Optimización de rendimiento, parches de seguridad y mantenimiento preventivo.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Linux</span>
+                                <span class="feature-tag">Windows Server</span>
+                                <span class="feature-tag">Performance</span> 
+                                <span class="feature-tag">Virtualization</span>                                                      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2: Networking -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_networking.png" alt="Networking" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Networking & Security</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">Networking & Security</h3>
+                            <p class="service-description">Diseño, implementación y gestión de redes seguras y eficientes. Optimización de rendimiento, parches de seguridad y mantenimiento preventivo.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Cisco</span>
+                                <span class="feature-tag">Fortinet</span>
+                                <span class="feature-tag">Routing</span>
+                                <span class="feature-tag">Switching</span> 
+                                <span class="feature-tag">VoIP</span>                                                      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3: DevOps -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_2.png" alt="DevOps" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">DevOps & CI/CD</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">DevOps CI/CD</h3>
+                            <p class="service-description">Implementación de pipelines de integración y despliegue continuo. Automatización del ciclo de vida del desarrollo de software.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Git</span>
+                                <span class="feature-tag">GitHub</span>
+                                <span class="feature-tag">Jenkins</span>
+                                <span class="feature-tag">GitLab CI</span>
+                                <span class="feature-tag">GitHub Actions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4: SysOps -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_3.png" alt="SysOps" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">SysOps & Monitoring</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">SysOps</h3>
+                            <p class="service-description">Monitoreo 24/7, gestión de incidentes y alta disponibilidad. Asegurando que tu infraestructura esté siempre operativa.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Prometheus</span>
+                                <span class="feature-tag">Grafana</span>
+                                <span class="feature-tag">Datadog</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5: Cloud -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_4.png" alt="Cloud Computing" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Cloud Computing</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">Cloud Architecture</h3>
+                            <p class="service-description">Diseño y migración a la nube (AWS, Azure). Arquitecturas Serverless, contenedores y microservicios escalables.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">AWS</span>
+                                <span class="feature-tag">Azure</span>
+                                <span class="feature-tag">Docker</span>
+                                <span class="feature-tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6: Security -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_5.png" alt="Cybersecurity" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Cybersecurity & Hardening</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">Seguridad</h3>
+                            <p class="service-description">Protección de infraestructura, auditorías de seguridad, gestión de identidades y cumplimiento normativo.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Hardening</span>
+                                <span class="feature-tag">Firewalls</span>
+                                <span class="feature-tag">Compliance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 7: Automation -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_automation_v2.png" alt="Automation" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Scripting & Automation</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">Automatización</h3>
+                            <p class="service-description">Desarrollo de scripts para automatizar tareas repetitivas. Infraestructura como código (IaC) para despliegues consistentes.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Bash</span>
+                                <span class="feature-tag">Ansible</span>
+                                <span class="feature-tag">Terraform</span>
+                                <span class="feature-tag">PowerShell</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <div class="code-block glass-card">
+<pre><code class="language-python">class NanelOps:
+    def __init__(self):
+        self.name = "Angel Millan"
+        self.role = "Founder @ Pepper Inc"
+        self.experience = 7  # Years
+        self.location = "Global / Remote"
+
+    def solve_problems(self):
+        while True:
+            analyze_infrastructure()
+            optimize_performance()
+            automate_everything()
+            return "Efficiency Boosted 🚀"
+
+print(NanelOps().solve_problems())</code></pre>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-label">IDENTIDAD</span>
+                <h2 class="about-title">Más que un <span class="text-gradient">SysAdmin</span></h2>
+                <p class="about-text">
+                    Hola, soy <strong>Angel Millan</strong>, conocido en el mundo tech como <strong>NanelOps</strong>. 
+                    Desde 2017 lidero <strong>Pepper Inc</strong>, apoyando a empresas a escalar su infraestructura tecnológica.
+                </p>
+                <p class="about-text">
+                    Mi enfoque combina la disciplina de la administración de sistemas tradicional con la agilidad de la cultura DevOps moderna. 
+                    Creo firmemente que la automatización no es el futuro, es el presente necesario para cualquier negocio digital.
+                </p>
+                <div class="about-buttons">
+                    <a href="https://www.pepperinc.net" target="_blank" class="btn-outline">Visitar Pepper Inc</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section id="contact" class="cta-section">
+        <div class="container cta-container glass-card glow-border">
+            <h2 class="cta-title">¿Listo para escalar tu infraestructura?</h2>
+            <p class="cta-subtitle">Hablemos sobre cómo optimizar tus sistemas y procesos hoy mismo.</p>
+            <div class="contact-grid">
+                <a href="mailto:angelrmh10@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>angelrmh10@gmail.com</span>
+                </a>
+                <a href="mailto:angel.millan@pepperinc.net" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>angel.millan@pepperinc.net</span>
+                </a>
+                <a href="https://wa.me/584141800020" class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>+58 414 180 0020</span>
+                </a>
+                <a href="https://www.pepperinc.net" target="_blank" class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <span>www.pepperinc.net</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="NanelOps" height="30">
+                <span>NanelOps</span>
+            </div>
+            <div class="footer-copy">
+                &copy; <span id="year">2026</span> Angel Millan (NanelOps). Todos los derechos reservados.
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/angelrmh10" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/angelrmh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
